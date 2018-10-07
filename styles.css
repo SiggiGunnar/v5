@@ -1,0 +1,88 @@
+/*fyrsta útgáfa*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+
+  font-family: 'Open Sans', helvetica, arial, sans-serif;
+  font-size: 16px;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1500px;
+  padding: 20px;
+  line-height: 1.375em;
+}
+
+.h2 {
+  display: flex;
+  margin: 0 0;
+
+  line-height: 1.375em;
+  font-size: 1.375em;
+}
+
+.p {
+  max-width: 29em;
+  font-size: 1em;
+  line-height: 1.375em;
+  word-wrap: break-word;
+  display: flex;
+  margin: 0.4em 0;
+}
+
+.cards {
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+
+  display: flex;
+  background: #eee;
+  flex-wrap: wrap;
+  align-content: space-around;
+  
+}
+/*test*/
+.card {
+  max-width: 29em;
+  max-height: 18.75em;
+  border: 2px solid #aaa;
+  border-radius: 0.313em;
+  background: #fff;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow-wrap: break-word;
+  overflow: auto;
+}
+
+img {
+  display: flex;
+  max-width: 9.375em;
+  max-height: 9.375em;
+  align-self: auto;
+  margin: auto 18.75em;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  font-weight: bold;
+  flex-wrap: wrap;
+  align-self: left;
+  flex: 0 1 auto;
+ }
+ 
+ li {
+  margin: 0 8px 0 0;
+ }
+  
